@@ -1,8 +1,10 @@
 const Page = () => {
     return (
-        <div>
-            Welcome to NextJS16
-        </div>
+        <section>
+            <h1>
+                Welcome to NextJS 16
+            </h1>
+        </section>
     );
 };
 
