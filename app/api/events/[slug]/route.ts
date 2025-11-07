@@ -3,6 +3,20 @@ import { NextRequest, NextResponse } from 'next/server';
 import connectDB from '@/lib/mongodb';
 import Event, { IEvent } from '@/databases/events';
 
+
+// Create a GET API route at `app/api/events/[slug]/route.ts` that returns event details by `slug`.
+//
+// 🛠️ Requirements
+//
+// * Accept `slug` as a dynamic route parameter.
+// * Query the `Event` model and return the matching event as JSON.
+// * Use proper TypeScript types (no `any`).
+// * Handle validation errors properly (missing or invalid `slug`, event not found, unexpected errors) and return appropriate status codes with clear messages.
+// * Ensure code is production-ready, well-structured, type-safe, and includes concise comments.
+//
+// ✅ Final Deliverable:
+// A clean, production-level API route that fetches event data by `slug` with robust validation and error handling.
+
 // Define route params type for type safety
 type RouteParams = {
     params: Promise<{
