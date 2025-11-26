@@ -120,3 +120,14 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+
+## 📸 Screenshots
+
+<div align="center">
+  <img src="public/images/home.png" alt="Screenshot 1" width="70%" />
+  <br/><br/>
+  <img src="public/images/e1.png" alt="Screenshot 2" width="70%" />
+  <br/><br/>
+  <img src="public/images/e2.png" alt="Screenshot 3" width="70%" />
+</div>
+
